@@ -13,7 +13,6 @@ public class Interval {
         } else if (userNumb >= 15 && userNumb <= 35) {
             System.out.println("чиcло в промежутке 15-35");
             in.close();
-
         } else if (userNumb >= 36 && userNumb <= 50) {
             System.out.println("чиcло в промежутке 36-50");
             in.close();
