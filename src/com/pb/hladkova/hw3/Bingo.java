@@ -20,11 +20,11 @@ public class Bingo {
                 int strToNum = Integer.parseInt(value);
                 if (strToNum > number) {
 
-                    System.out.println(" Ваше число больше загаданного, попроюуйте еще ");
+                    System.out.println(" Ваше число больше загаданного, попробуйте еще ");
                 } else if (strToNum < number) {
-                    System.out.println(" Ваше число меньше загаданного, попроюуйте еще  ");
+                    System.out.println(" Ваше число меньше загаданного, попробуйте еще  ");
                 } else {
-                    System.out.println(" Поздравляем, Вы угадали с " + attempt2 + " gопытки! ");
+                    System.out.println(" Поздравляем, Вы угадали с " + attempt2 + " попытки! ");
                     break;
                 }
             } System.out.println("Конец игры!");
